@@ -27,17 +27,13 @@ import {
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
 
-
-
-export default class App extends React.Component
-{
-  render()
-  {
-    return(
-    <>
-      <Text>Issue Tracker</Text>
-      <IssueList/>
-    </>);
-
+export default class App extends React.Component {
+  render() {
+    return (
+      <>
+        <Text>Issue Tracker</Text>
+        <IssueList />
+      </>
+    );
   }
 }
